@@ -17,7 +17,16 @@ body {
 
 .nav-link {
     font-size: 1.1em !important;
+    color:white;
 }
+.nav-link.active,
+.nav-link:hover{
+color:#f9da64}
+
+#colo{
+color:#4169E1;
+}
+
 
 .carousel-inner img {
     width: 100%;
@@ -43,15 +52,6 @@ body {
     padding-bottom: 1rem;
 }
 
-.btn-primary {
-    background-color: #6648b1;
-    border: 1px solid#563d7c;
-}
-
-.btn-primary:hover {
-    background-color: #563d7c;
-    border: 1px solid#563d7c;
-}
 
 .jumbotron {
     padding: 1rem;
@@ -242,7 +242,7 @@ figure {
 }
 
 footer {
-    background-color: #3f3f3f;
+    background-color:black;
     color: #d5d5d5;
     padding-top: 2rem;
 }
@@ -265,7 +265,28 @@ hr.light-100 {
     margin-bottom: 1rem;
 }
 
-
+.card h3{
+color:	#4169E1;
+}
+#k{
+background-color:black;
+}
+.nav-item{
+color:white;
+}
+.col-md-12 h2{
+color:#f9da64;
+}
+.f{
+background-color:#f9da64;
+}
+.display-4{
+color:#f9da64;
+}
+.navbar-toggler-icon{
+background color:white;
+}
+.navbar-toggler { border-color: #008000; }
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
